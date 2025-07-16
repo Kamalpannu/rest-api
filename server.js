@@ -17,7 +17,7 @@ console.error("MongoDB connection error:", err));
 
 const app = express();
 app.use(cors({
-    origin: 'https://frontend-five-theta-28.vercel.app',
+    origin: 'https://frontend-kkua.vercel.app',
     credentials: true
 }));
 app.use(express.json());
